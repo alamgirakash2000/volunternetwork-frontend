@@ -1,0 +1,15 @@
+.home__search {
+  padding: 0.5rem 1rem;
+}
+
+.home__categories a {
+  text-decoration: none;
+}
+.category__card {
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.category__card img {
+  width: 100%;
+}

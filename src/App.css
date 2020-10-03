@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  height: 40px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected {
+  background: rgb(11, 179, 170);
+  color: #fff;
+  border-radius: 0 20px 0 20px;
+}

@@ -1,0 +1,20 @@
+.user {
+  margin: 2rem 0;
+}
+
+.work {
+  background: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+.work__left img {
+  width: 100%;
+}
+
+.work__right button {
+  margin-left: auto;
+}

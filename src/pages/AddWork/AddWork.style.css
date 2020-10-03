@@ -1,0 +1,20 @@
+.addWork {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addWork__form {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  border: 1px solid gray;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.addWork__form input {
+  margin-top: 1rem;
+}
