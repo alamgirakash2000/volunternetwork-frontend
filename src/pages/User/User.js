@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./User.style.css";
 import axios from "../../axios";
-import volunteers from "../../extraVolunteer.png";
 import moment from "moment";
 
 function User({ user }) {
@@ -33,10 +32,11 @@ function User({ user }) {
             <div className="col-md-6" key={work._id}>
               <div className="work row">
                 <div className="work__left col-6">
-                  <img src={volunteers} alt="" />
+                  <img src={work.category.img} alt="" />
                 </div>
+                {console.log(work.category)}
                 <div className="work__right col-6 h-100 w-100">
-                  <h5>{work.category}</h5>
+                  <h5>{work.category.name}</h5>
                   <h6>{moment(work.date).format("Do MMM YY")}</h6>
                   <button
                     className="btn mt-auto ml-auto btn-danger"

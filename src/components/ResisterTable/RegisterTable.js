@@ -78,7 +78,9 @@ function ResisterTable() {
               <StyledTableCell align="left">
                 {moment(work.date).format("L")}
               </StyledTableCell>
-              <StyledTableCell align="left">{work.category}</StyledTableCell>
+              <StyledTableCell align="left">
+                {work.category.name}
+              </StyledTableCell>
               <StyledTableCell align="left">
                 <i
                   className="fas fa-trash-alt text-danger"
